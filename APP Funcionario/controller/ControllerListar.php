@@ -1,5 +1,7 @@
 <?php
 require_once("../model/banco.php");
+error_reporting(0);
+ini_set("display_errors",0);
 class listarController{
 
     private $lista;
